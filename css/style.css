@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(31, 31, 78);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.fotof {
+    max-width: 90px;
+    padding: 10px;
+    left: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    color: #ff6600;
+}
+.main {
+    padding: 20px;
+}
+
+.principal-contenedor{
+    display: grid;
+    grid-template-areas: 
+    "imagen texto";
+    padding: 5vw;
+    grid-template-columns: 0.8fr 1fr;
+}
+
+.principal-imagen{
+    display: grid;
+    grid-area: imagen;
+    justify-items: center;
+}
+
+.principal-texto{
+    display: grid;
+    grid-area: texto;
+    text-align: center;
+    place-content: center;
+    justify-items: center;
+}
+
+.principal__texto{
+    font-size: 20px;
+}
+
+.principal__titulo{
+    font-size: 40px;
+}
+
+.principal__boton{
+    width: 10vw;
+}
+
+.carreras-contenedor{
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.titulo-carrera{
+    text-align : center;
+}
+
+.imagen-carrera img{
+    height: 250px; /* Altura */
+    width: 300px; /* ancho */
+}
+
+.titulo-informacion{
+    text-align: center;
+}
+
+.descripcion-informacion{
+    padding: 20px;
+}
+
+.titulos{
+    display: grid;
+    text-align: center;
+}
+
+.contenedor-visiones{
+    display: grid;
+    grid-template-areas:
+    "mision vision"
+}
+
+.mision{
+    grid-area: mision;
+}
+
+.vision{
+    grid-area: vision;
+}
+
+
+
